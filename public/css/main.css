@@ -1,0 +1,298 @@
+.edit_truck {
+  border-radius: 50px;
+  display: block;
+  margin: 25px auto;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.btn-sm {
+  margin-bottom: 0px !important;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hl {
+  color: #f6914a;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: black;
+}
+
+.card {
+  margin-top: 50px;
+}
+
+.btn {
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  width: 100px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50px;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #f6914a;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px grey;
+          box-shadow: inset 0 0 10px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f6914a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f6914a;
+}
+
+.rights {
+  height: 50px;
+  background-color: #1b1919;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rights p {
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.app-bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/app-bg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/app-bg.png");
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-form,
+.upload-form {
+  width: 400px;
+  position: relative;
+  display: block;
+  margin: 120px auto;
+  height: 500px;
+}
+
+.login-form select,
+.upload-form select {
+  font-size: 20px;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+.login-form .form-field,
+.upload-form .form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.login-form input,
+.upload-form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4A4A4A;
+}
+
+.login-form .login-submit,
+.upload-form .login-submit {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: #f6914a;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+}
+
+@media (min-width: 220px) and (max-width: 480px) {
+  .rights p {
+    font-size: 15px;
+  }
+}
+
+.admin {
+  height: 100vh;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.available_trucks {
+  height: 150vh;
+  width: 90%;
+  margin: 25px auto;
+  font-size: 20px;
+}
+
+.available_trucks_header {
+  text-align: center;
+  font-size: 2rem;
+  width: 300px;
+  margin: auto auto 30px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px #e8f4ea;
+          box-shadow: 7px 7px #e8f4ea;
+}
+
+.livewire {
+  font-size: 1.5rem;
+  display: block;
+  margin: auto;
+  height: 30px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+.all_trucks {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.alert {
+  display: block;
+  margin: 25px auto;
+  width: 400px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .login-form {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .login-bg {
+    height: 100vh;
+  }
+  .add-truck-bg {
+    height: 1200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .login-form {
+    width: 50%;
+    margin-top: 50px;
+  }
+  .login-bg {
+    height: 100vh;
+  }
+  .add-truck-bg {
+    height: 1300px;
+  }
+}
+
+@media (min-width: 220px) and (max-width: 480px) {
+  * {
+    font-size: 11px;
+  }
+  .admin {
+    font-size: 15px;
+  }
+  .available_trucks, .all_trucks {
+    width: 100%;
+    padding: 10px;
+  }
+  .alert {
+    font-size: 15px;
+    width: 85%;
+  }
+  .mobile-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  * {
+    font-size: 15px;
+  }
+  .available_trucks {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1399px) {
+  .available_trucks {
+    width: 70%;
+  }
+}
